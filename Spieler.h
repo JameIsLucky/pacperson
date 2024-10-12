@@ -32,7 +32,7 @@ public:
 private:
     sf::CircleShape spielerKreis;
     sf::Vector2f richtung;  // Richtung des Spielers
-    float schrittGroesse;   // Schrittgröße (Größe des Gitters)
+    float schrittGroesse;   // Schrittgröße (Größe des Gitters bzw Rasters)
     float spielfeldGroesse; // Spielfeldgröße, um die Bewegungen zu begrenzen
 };
 

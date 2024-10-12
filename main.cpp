@@ -4,7 +4,7 @@
 #include <vector>
 #include <cmath>
 
-//hier habe ich Hilfe von chatgpt bekommen, da wäre ich nie selbst drauf gekommen
+//so ganz verstehe ich selber nicht was hier abgeht
 float berechneAbstand(sf::Vector2f p1, sf::Vector2f p2) {
     float dx = p2.x - p1.x;
     float dy = p2.y - p1.y;
@@ -35,11 +35,11 @@ int main()
     Spieler spieler(256.f, 256.f, 15.f, sf::Color::Yellow, abstand);
 
     spieler.setzeSpielfeldGrenze(fensterGroesse);
-    const float geschwindigkeit = 0.13f;
+    const float geschwindigkeit = 0.13f; //Dieser Wert fühlt sich am natürlichsten an, ist aber nach Gefühl geschätzt
 
     sf::Clock uhr;
 
-
+    //Hauptflow des Programms
     while(fenster.isOpen()){
 
         sf::Event event;

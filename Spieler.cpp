@@ -13,7 +13,7 @@ Spieler::Spieler(float x, float y, float radius, sf::Color farbe, float schrittG
     richtung = sf::Vector2f(1.0f, 0.0f);     // Anfangsbewegung nach rechts
 }
 
-// Methode zum automatischen Bewegen des Spielers in die aktuelle Richtung
+// Methode zum automatischen Bewegen des Spielers in die aktuell Richtung
 void Spieler::bewegeAutomatisch() {
     // Berechne die nächste Position
     sf::Vector2f neuePosition = spielerKreis.getPosition() + richtung * schrittGroesse;
