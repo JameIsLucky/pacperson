@@ -4,7 +4,7 @@
 #include <vector>
 #include <cmath>
 
-//so ganz verstehe ich selber nicht was hier abgeht
+// sehr interessante Funktion
 float berechneAbstand(sf::Vector2f p1, sf::Vector2f p2) {
     float dx = p2.x - p1.x;
     float dy = p2.y - p1.y;
