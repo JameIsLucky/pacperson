@@ -9,7 +9,7 @@ Kompilieranleitung (Linux):
 
 
 1. Installation von Cmake v3.29.8 und SFML-Bibliotheken (v2.5)
-2. ```git clone https://github.com/JameIsLucky/pacperson```
+2. ```git clone https://github.com/JameIsLucky/pacperson.git```
 3. ```cd pacperson```
 4. ```mkdir build && cd build```
 5. ```cmake ..```
