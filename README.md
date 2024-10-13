@@ -14,3 +14,4 @@ Kompilieranleitung (Linux):
 4. ```mkdir build && cd build```
 5. ```cmake ..```
 6. ```make```
+!Das Spiel startet nur mit einer Schriftart im Ordner assets/fonts/*.ttf, ausgehend von dem Hauptordner des Programms!
